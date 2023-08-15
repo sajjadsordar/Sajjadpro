@@ -79,30 +79,12 @@ logo = ("""\033[1;32m
 \033[1;32m   ___) | |_| |  _ <| |_| / ___ \|  _ < 
 \033[1;32m  |____/ \___/|_| \_\____/_/   \_\_| \_\
 \033[1;32mNAM TO SUNA HOGA SAJJAD SORDAR
-\033[1;32m FREE BUT PASSWORD NEEDED    
  
 •••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••\033[1;33m
   \033[1;32mAdmin  : Sajjad Sordar
   \033[1;32mFecbook : Sajjad Sordar
   \033[1;33mVersion : 2.9
 ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••\033[1;32m""")
-   CorrectUsername = "SAJJAD"
-CorrectPassword = "TANU"
-
-loop = 'true'
-while (loop == 'true'):
-    username = raw_input("\033[1;97m\x1b[1;97mTool Username \x1b[1;97m»» \x1b[1;97m")
-    if (username == CorrectUsername):
-    	password = raw_input("\033[1;97m \x1b[1;97mTool Password  \x1b[1;97m» \x1b[1;97m")
-        if (password == CorrectPassword):
-            print "Logged in successfully as " + username 
-	    time.sleep(2)
-            loop = 'false'
-        else:
-            print "\033[1;94mWrong Password"
-            os.system('xdg-open https://wa.me/+8801401580673')
-    else:
-        print "\033[1;94mWrong Username"
         
    
 class Main:
